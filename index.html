@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>SIEM Application</title>
+  </head>
+  <body>
+    <h1>SIEM ELECTRON APP</h1>
+    <!-- to check net connection -->
+    <h3>Your Connection status is: <strong id="status"></strong></h3>
+    
+    <!-- for video streaming -->
+    <h4 id="cameraText"></h4>
+    <video id="camera" autoplay></video>
+
+<!-- for Serial ports check -->
+    <h1>Web Serial API</h1>
+    <button id="clickme">Test Web Serial API</button>
+    <p><strong id="device-name""></strong></p>
+
+<!-- noti -->
+    <p id="output">Not Clicked</p>
+
+    <script src="noti.js"></script>
+    <script src="usb.js"></script>
+    <script src="internet.js"></script>
+    <script src="keyboard.js"></script>
+    <script src="camera.js"></script>
+  </body>
+</html>
